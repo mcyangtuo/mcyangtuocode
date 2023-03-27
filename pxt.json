@@ -19,5 +19,6 @@
     },
     "supportedTargets": [
         "minecraft"
-    ]
+    ],
+    "preferredEditor": "blocksprj"
 }

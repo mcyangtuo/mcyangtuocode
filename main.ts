@@ -17,6 +17,11 @@ player.onChat("挖矿16", function () {
 player.onChat("tpc", function () {
     agent.teleportToPlayer()
 })
+player.onChat("tpsc", function () {
+    player.execute(
+    "tp @s @c"
+    )
+})
 player.onChat("挖矿32", function () {
     for (let index = 0; index < 32; index++) {
         agent.destroy(FORWARD)
@@ -56,6 +61,16 @@ player.onChat("挖矿64", function () {
 })
 player.onChat("ai左", function () {
     agent.turn(LEFT_TURN)
+})
+player.onChat("flyfalse", function () {
+    player.execute(
+    "ability @s mayfly false"
+    )
+})
+player.onChat("flytrue", function () {
+    player.execute(
+    "ability @s mayfly true"
+    )
 })
 player.onChat("刷石机128", function () {
     for (let index = 0; index < 128; index++) {

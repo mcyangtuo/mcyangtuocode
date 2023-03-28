@@ -6,7 +6,7 @@ player.onChat("刷石机32", function () {
     }
 })
 player.onChat("挖矿16", function () {
-    for (let index = 0; index < 1; index++) {
+    for (let index = 0; index < 16; index++) {
         agent.destroy(FORWARD)
         agent.collectAll()
         agent.move(FORWARD, 1)
